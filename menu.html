@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavorFusion Bistro | Menu</title>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">FlavorFusion</h1>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <!-- Menu Section -->
+    <section class="menu">
+        <div class="container">
+            <h2>Our Menu</h2>
+            <div class="menu-grid">
+                <!-- Dish 1 -->
+                <div class="menu-item">
+                    <img src="images/dish1.jpg" alt="Truffle Pasta">
+                    <h3>Truffle Pasta</h3>
+                    <p>Creamy pasta with black truffle shavings.</p>
+                    <span class="price">$14.99</span>
+                    <button class="btn add-to-cart" data-name="Truffle Pasta" data-price="14.99">Add to Cart</button>
+                </div>
+                <!-- Dish 2 -->
+                <div class="menu-item">
+                    <img src="images/dish2.jpg" alt="Sushi Burrito">
+                    <h3>Sushi Burrito</h3>
+                    <p>Fusion of Japanese sushi and Mexican burrito.</p>
+                    <span class="price">$16.99</span>
+                    <button class="btn add-to-cart" data-name="Sushi Burrito" data-price="16.99">Add to Cart</button>
+                </div>
+                <!-- Dish 3 -->
+                <div class="menu-item">
+                    <img src="images/dish3.jpg" alt="Matcha Tiramisu">
+                    <h3>Matcha Tiramisu</h3>
+                    <p>Green tea-infused Italian dessert.</p>
+                    <span class="price">$8.99</span>
+                    <button class="btn add-to-cart" data-name="Matcha Tiramisu" data-price="8.99">Add to Cart</button>
+                </div>
+                <!-- Add more dishes as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 FlavorFusion Bistro. Crafted with ❤️</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
